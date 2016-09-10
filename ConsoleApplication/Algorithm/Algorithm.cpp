@@ -9,4 +9,5 @@ void main()
     // added comment. jintaeks on 2016-09-09_12-40
     std::cin >> iNumber;
     std::cout << "number is " << iNumber << std::endl;
+    // When I was a little boy.
 }//main()
