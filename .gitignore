@@ -1,0 +1,10 @@
+*.log
+ConsoleApplication/Algorithm/Debug/Algorithm.obj
+*.lastbuildstate
+ConsoleApplication/Algorithm/Debug/Algorithm.tlog/cl.command.1.tlog
+*.idb
+ConsoleApplication/Algorithm/Debug/vc120.pdb
+*.tlog
+ConsoleApplication/Algorithm/Debug/backprop.obj
+*.obj
+ConsoleApplication/Algorithm.v12.suo
