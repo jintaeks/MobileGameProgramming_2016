@@ -1,20 +1,20 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <Filter Include="소스 파일">
-      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
-      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
-    </Filter>
-    <Filter Include="헤더 파일">
-      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
-      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
-    </Filter>
-    <Filter Include="리소스 파일">
+    <Filter Include="Resource Files">
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
-    <Filter Include="참고파일">
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Reference Files">
       <UniqueIdentifier>{62c8457d-0178-4840-9dc2-c2174b4d5817}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -22,177 +22,186 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="stdafx.h">
-      <Filter>헤더 파일</Filter>
+      <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="targetver.h">
-      <Filter>헤더 파일</Filter>
+      <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="MyUtil.h">
-      <Filter>참고파일</Filter>
+      <Filter>Reference Files</Filter>
     </ClInclude>
     <ClInclude Include="backprop.h">
-      <Filter>소스 파일</Filter>
+      <Filter>Source Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
-      <Filter>소스 파일</Filter>
+      <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Algorithm.cpp">
-      <Filter>소스 파일</Filter>
+      <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Algorithm_Cpp11_typeAlias_AliasTemplate.cpp">
-      <Filter>참고파일</Filter>
+      <Filter>Reference Files</Filter>
     </ClCompile>
     <ClCompile Include="Algorithm_CppFundamental01.cpp">
-      <Filter>참고파일</Filter>
+      <Filter>Reference Files</Filter>
     </ClCompile>
     <ClCompile Include="Algorithm_LinkedList_stdList.cpp">
-      <Filter>참고파일</Filter>
+      <Filter>Reference Files</Filter>
     </ClCompile>
     <ClCompile Include="Algorithm_LinkedList_stdmap.cpp">
-      <Filter>참고파일</Filter>
+      <Filter>Reference Files</Filter>
     </ClCompile>
     <ClCompile Include="Algorithm_Math_NumericalDifferentiation.cpp">
-      <Filter>참고파일</Filter>
+      <Filter>Reference Files</Filter>
     </ClCompile>
     <ClCompile Include="Algorithm_Stack_ConvertDecimalToPentamal.cpp">
-      <Filter>참고파일</Filter>
+      <Filter>Reference Files</Filter>
     </ClCompile>
     <ClCompile Include="Algorithm_Stack_ConvertDecimalToPentamal_StandardContainer.cpp">
-      <Filter>참고파일</Filter>
+      <Filter>Reference Files</Filter>
     </ClCompile>
     <ClCompile Include="Algorithm_StackClass.cpp">
-      <Filter>참고파일</Filter>
+      <Filter>Reference Files</Filter>
     </ClCompile>
     <ClCompile Include="Algorithm_StackClass02.cpp">
-      <Filter>참고파일</Filter>
+      <Filter>Reference Files</Filter>
     </ClCompile>
     <ClCompile Include="Algorithm_StackClass03_Template.cpp">
-      <Filter>참고파일</Filter>
+      <Filter>Reference Files</Filter>
     </ClCompile>
     <ClCompile Include="Algorithm_StackClass04_TemplateSpecialization.cpp">
-      <Filter>참고파일</Filter>
+      <Filter>Reference Files</Filter>
     </ClCompile>
     <ClCompile Include="Algorithm_Cpp11_AliasDeclaration.cpp">
-      <Filter>참고파일</Filter>
+      <Filter>Reference Files</Filter>
     </ClCompile>
     <ClCompile Include="Algorithm_CppStlConcept01.cpp">
-      <Filter>참고파일</Filter>
+      <Filter>Reference Files</Filter>
     </ClCompile>
     <ClCompile Include="Algorithm_CppStlConcept02_sharedPtr.cpp">
-      <Filter>참고파일</Filter>
+      <Filter>Reference Files</Filter>
     </ClCompile>
     <ClCompile Include="Algorithm_CppStlConcept03_sharedPtr.cpp">
-      <Filter>참고파일</Filter>
+      <Filter>Reference Files</Filter>
     </ClCompile>
     <ClCompile Include="Algorithm_CppFundamental_functionObject.cpp">
-      <Filter>참고파일</Filter>
+      <Filter>Reference Files</Filter>
     </ClCompile>
     <ClCompile Include="Algorithm_CppFundamental_templateSpecialization.cpp">
-      <Filter>참고파일</Filter>
+      <Filter>Reference Files</Filter>
     </ClCompile>
     <ClCompile Include="Algorithm_Cpp11_moveConstructor.cpp">
-      <Filter>참고파일</Filter>
+      <Filter>Reference Files</Filter>
     </ClCompile>
     <ClCompile Include="Algorithm_Cpp11_rvalueReference.cpp">
-      <Filter>참고파일</Filter>
+      <Filter>Reference Files</Filter>
     </ClCompile>
     <ClCompile Include="Algorithm_Cpp11_initializer-list.cpp">
-      <Filter>참고파일</Filter>
+      <Filter>Reference Files</Filter>
     </ClCompile>
     <ClCompile Include="Algorithm_Cpp11_default_delete.cpp">
-      <Filter>참고파일</Filter>
+      <Filter>Reference Files</Filter>
     </ClCompile>
     <ClCompile Include="Algorithm_Cpp11_garbageCollector_declare_reachable.cpp">
-      <Filter>참고파일</Filter>
+      <Filter>Reference Files</Filter>
     </ClCompile>
     <ClCompile Include="Algorithm_Cpp11_moveConstructorConcepts.cpp">
-      <Filter>참고파일</Filter>
+      <Filter>Reference Files</Filter>
     </ClCompile>
     <ClCompile Include="Algorithm_Cpp11_decltype.cpp">
-      <Filter>참고파일</Filter>
+      <Filter>Reference Files</Filter>
     </ClCompile>
     <ClCompile Include="Algorithm_Cpp11_lambdaFunction01.cpp">
-      <Filter>참고파일</Filter>
+      <Filter>Reference Files</Filter>
     </ClCompile>
     <ClCompile Include="Algorithm_Cpp11_lambdaFunction02.cpp">
-      <Filter>참고파일</Filter>
+      <Filter>Reference Files</Filter>
     </ClCompile>
     <ClCompile Include="Algorithm_Cpp11_default_delete_FamousUsage.cpp">
-      <Filter>참고파일</Filter>
+      <Filter>Reference Files</Filter>
     </ClCompile>
     <ClCompile Include="Algorithm_Cpp11_nullptr.cpp">
-      <Filter>참고파일</Filter>
+      <Filter>Reference Files</Filter>
     </ClCompile>
     <ClCompile Include="Algorithm_Cpp11_rawString.cpp">
-      <Filter>참고파일</Filter>
+      <Filter>Reference Files</Filter>
     </ClCompile>
     <ClCompile Include="Algorithm_Cpp11_lambdaFunction03.cpp">
-      <Filter>참고파일</Filter>
+      <Filter>Reference Files</Filter>
     </ClCompile>
     <ClCompile Include="Algorithm_Cpp11_thread_local.cpp">
-      <Filter>참고파일</Filter>
+      <Filter>Reference Files</Filter>
     </ClCompile>
     <ClCompile Include="Algorithm_Cpp11_bind.cpp">
-      <Filter>참고파일</Filter>
+      <Filter>Reference Files</Filter>
     </ClCompile>
     <ClCompile Include="Algorithm_CppFundamental_algorithm.cpp">
-      <Filter>참고파일</Filter>
+      <Filter>Reference Files</Filter>
     </ClCompile>
     <ClCompile Include="Algorithm_quickSort_template.cpp">
-      <Filter>참고파일</Filter>
+      <Filter>Reference Files</Filter>
     </ClCompile>
     <ClCompile Include="Algorithm_quickSort.cpp">
-      <Filter>참고파일</Filter>
+      <Filter>Reference Files</Filter>
     </ClCompile>
     <ClCompile Include="Algorithm_Cpp11_std_ref.cpp">
-      <Filter>참고파일</Filter>
+      <Filter>Reference Files</Filter>
     </ClCompile>
     <ClCompile Include="Algorithm_Cpp11_type_trait.cpp">
-      <Filter>참고파일</Filter>
+      <Filter>Reference Files</Filter>
     </ClCompile>
     <ClCompile Include="Algorithm_Cpp11_std_function.cpp">
-      <Filter>참고파일</Filter>
+      <Filter>Reference Files</Filter>
     </ClCompile>
     <ClCompile Include="Algorithm_Cpp11_variadic_template.cpp">
-      <Filter>참고파일</Filter>
+      <Filter>Reference Files</Filter>
     </ClCompile>
     <ClCompile Include="Algorithm_Cpp11_variadic_template02.cpp">
-      <Filter>참고파일</Filter>
+      <Filter>Reference Files</Filter>
     </ClCompile>
     <ClCompile Include="Algorithm_Cpp11_variadic_template03.cpp">
-      <Filter>참고파일</Filter>
+      <Filter>Reference Files</Filter>
     </ClCompile>
     <ClCompile Include="Algorithm_infoxToPostfixConverter.cpp">
-      <Filter>참고파일</Filter>
+      <Filter>Reference Files</Filter>
     </ClCompile>
     <ClCompile Include="Algorithm_NeuralNetworkPerceptron.cpp">
-      <Filter>참고파일</Filter>
+      <Filter>Reference Files</Filter>
     </ClCompile>
     <ClCompile Include="Algorithm_PostfixEvaluator.cpp">
-      <Filter>참고파일</Filter>
+      <Filter>Reference Files</Filter>
     </ClCompile>
     <ClCompile Include="backprop.cpp">
-      <Filter>소스 파일</Filter>
+      <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Algorithm_Backprop.cpp">
-      <Filter>참고파일</Filter>
+      <Filter>Reference Files</Filter>
     </ClCompile>
     <ClCompile Include="Algorithm_unordered_set.cpp">
-      <Filter>참고파일</Filter>
+      <Filter>Reference Files</Filter>
     </ClCompile>
     <ClCompile Include="Algorithm_make_heap.cpp">
-      <Filter>참고파일</Filter>
+      <Filter>Reference Files</Filter>
     </ClCompile>
     <ClCompile Include="Algorithm_Tetris_Step01.cpp">
-      <Filter>참고파일</Filter>
+      <Filter>Reference Files</Filter>
     </ClCompile>
     <ClCompile Include="Algorithm_pointer_step02_struct.cpp">
-      <Filter>참고파일</Filter>
+      <Filter>Reference Files</Filter>
     </ClCompile>
     <ClCompile Include="Algorithm_pointer_step01.cpp">
-      <Filter>참고파일</Filter>
+      <Filter>Reference Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Algorithm_list_sort.cpp">
+      <Filter>Reference Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Algorithm_typetrait01.cpp">
+      <Filter>Reference Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Algorithm_typetrait02.cpp">
+      <Filter>Reference Files</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
