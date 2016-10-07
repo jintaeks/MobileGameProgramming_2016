@@ -8,3 +8,6 @@ ConsoleApplication/Algorithm/Debug/vc120.pdb
 ConsoleApplication/Algorithm/Debug/backprop.obj
 *.obj
 ConsoleApplication/Algorithm.v12.suo
+*.pdb
+ConsoleApplication/Debug/Algorithm.ilk
+*.sdf
