@@ -203,5 +203,8 @@
     <ClCompile Include="Algorithm_typetrait02.cpp">
       <Filter>Reference Files</Filter>
     </ClCompile>
+    <ClCompile Include="Algorithm_simpleGarbageCollector.cpp">
+      <Filter>Reference Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
